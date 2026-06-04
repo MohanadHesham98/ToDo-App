@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: taskflow-todo
-          image: your-aws-account-id.dkr.ecr.your-region.amazonaws.com/taskflow-todo:latest
+          image: mohanad898/taskflow-todo:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
