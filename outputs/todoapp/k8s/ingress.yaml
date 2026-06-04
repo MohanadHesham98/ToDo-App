@@ -1,9 +1,9 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: taskflow-ingress
+  name: todo-ingress
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web
+    kubernetes.io/ingress.class: "traefik"
 spec:
   rules:
   - http:
